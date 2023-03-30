@@ -34,6 +34,8 @@ func init() {
 		created_at DATETIME)`, tableNameUser)
 
 	Db.Exec(cmdU)
+
+	cmdT := fmt.Sprintf(`CREATE TABLE IF NOT EXISTS `);
 }
 
 func createUUID() (uuidobj uuid.UUID) {
