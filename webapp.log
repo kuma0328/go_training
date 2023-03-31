@@ -1,3 +1,0 @@
-2023/03/29 00:57:30 main.go:16: test
-2023/03/29 01:13:13 users.go:33: sql: converting argument $1 type: unsupported type func() uuid.UUID, a func
-2023/03/29 16:23:06 users.go:57: near "where": syntax error
