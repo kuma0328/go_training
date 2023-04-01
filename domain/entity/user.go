@@ -8,5 +8,6 @@ type User struct {
 	Email 		string
 	PassWord 	string
 	CreatedAt time.Time
+	UpdateAt  time.Time
 	TodoIds 	[]int
 }
